@@ -1,0 +1,1 @@
+This is Ozer's first git project in The Odin Project Curriculum.
