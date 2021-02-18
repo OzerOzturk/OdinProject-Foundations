@@ -92,21 +92,18 @@ button:focus {
 
 /* Navbar */
 
-nav {
-    text-align: right;
-    padding:7px;
-    margin:10px;
-    margin-right: 0;
-    font-size: 17px;
-}
+.navigation {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  }
 
-.navigation, li {
-  list-style-type: none;
-  display:inline;
-  height: 0px;
-  margin:10px;
-  margin-top:40px;
-  padding:8px;
+.navigation-link{
+  margin-right: 1.5rem;
+  opacity: 0.85;
   }
 
 
@@ -115,8 +112,39 @@ nav {
   
 }
 
+.navigation-link:hover {
+  text-decoration: underline;
+}
+
+.button-apps {
+  width: 30px;
+  height: 30px;
+  margin-right: 1.5rem;
+  background-color: #fff;
+}
+
+.button-apps:hover,
+.button-apps:focus {
+  opacity: 0.95;
+}
+
+.signin {
+  background-color:#4285f4;
+  color:#fff;
+  height: 34px;
+  width: 75px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-right: 3rem;
+  padding: 0.7rem 1rem;
+}
+
+.signin:hover {
+  border: 1px solid #aaa;
+}
 
  /* Navbar */
+
  
  /* Search */
  
