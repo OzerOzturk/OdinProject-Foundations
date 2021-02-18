@@ -8,46 +8,44 @@
 </head>
 <body>
 
-    <nav>
-        <ul class="navigation" >
-            <li><a href="#">Gmail</a></li>
-            <li><a href="#">Images</a></li>
-            <li><a href="#">Google Apps</a></li>
-            <li><a href="#" id="sign-in">Sign In</a></li>
-          </ul>
-
+    <nav class="navigation">
+            <a class="navigation-link" href="#">Gmail</a>
+            <a class="navigation-link" href="#">Images</a>
+            <button class="button-apps" href="#"></button>
+            <button class="signin">Sign In</button>
     </nav>
 
-    <div class="search">
-        <img id="googlelogo" src="img/googlelogo.png" alt="googlelogo">
-        <br>
-        <label for="site-search"></label>
-        <input type="search" id="site-search" name="q" aria-label="Search through site content">
-        <br>
-       <button>Google Search</button>
-       <button>I'm Feeling Lucky</button>
+    <div class="main">
+        <img class="googlelogo" src="img/googlelogo.png" alt="googlelogo">
+        <div class="searchbar">
+           <img class="search-icon" src="img/google-search.png" alt="searc-icon">
+           <input type="text" class="search-input">
+           <button>
+               <img class="microphone-icon" src="img/google-microphone.png" alt="microphone-icon">
+           </button>
+        </div>
+        <div>
+            <button class="button-search">Google Search</button>
+            <button class="button-search">I'm Feeling Lucky</button>
+        </div>
        
-    </div>
+     </div>
 
-
-
-    <footer>
+     
+    <footer class="footer">
         <div class="right">
-            <ul >
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
         </div>
         <div class="left">
-            <ul >
-                <li><a href="#">About</a></li>
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">How Search works</a></li>
-            </ul>
-            <li id="location"><a href="#">Location</a></li>
-        </div>
+            <a class="location" href="#">Location</a></li>
+            <br>
+            <a href="#">About</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+       </div>
     </footer>
 
 </body>

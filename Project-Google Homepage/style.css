@@ -47,10 +47,48 @@ table {
 /* CSS RESET */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+
+
+html {
+  font-size: 60%;
+}
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
 body{
   background: #ffffff;
   font-family: 'Open Sans', sans-serif;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
 
 /* Navbar */
 
