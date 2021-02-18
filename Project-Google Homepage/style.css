@@ -45,6 +45,12 @@ table {
 }
 
 /* CSS RESET */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
 
 /* Navbar */
 
@@ -72,15 +78,17 @@ nav {
 }
 
 
-
-
  /* Navbar */
  
  /* Search */
+ 
 
 .search, #googlelogo { 
     text-align: center;
+    vertical-align: middle;
+    margin-bottom: 250px;
 }
+
 
 
 
