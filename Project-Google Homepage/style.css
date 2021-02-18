@@ -132,7 +132,7 @@ button:focus {
   background-color:#4285f4;
   color:#fff;
   height: 34px;
-  width: 75px;
+  width: 95px;
   font-weight: bold;
   border-radius: 3px;
   margin-right: 3rem;
@@ -146,7 +146,7 @@ button:focus {
  /* Navbar */
 
  
- /* Search */
+ /* Main */
  
 
 .search, #googlelogo { 
@@ -155,10 +155,83 @@ button:focus {
     margin-bottom: 250px;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 15rem;
+}
+
+.googlelogo {
+  width: 272px;
+  height: 92px;
+  margin-bottom: 3rem;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 580px;
+  padding: 1rem;
+  padding-right: 1.5rem;
+  border: 0.1px solid rgb(219, 219, 219);
+  border-radius: 30px;
+}
+
+.searchbar:hover,
+.searchbar:focus-within {
+  border-color: white;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 1rem;
+}
+
+.search-input {
+  width: 60vw;
+  font-size: 1.5rem;
+}
+
+.microphone-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.search-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.3rem;
+}
+
+.button-search {
+  min-width: 50px;
+  height: 36px;
+  padding: 0 2rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin: 1rem;
+  background-color: rgb(240, 240, 240);
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.button-search:hover {
+  border-color: #dadce0;
+  box-shadow: 0 1px 1px #fff;
+}
+
+.button-search:focus {
+  border-color: rgb(69, 69, 221);
+}
 
 
-
- /* Search */
+ /* Main */
 
  /* Footer */
 
