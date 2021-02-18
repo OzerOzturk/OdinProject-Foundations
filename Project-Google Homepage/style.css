@@ -63,40 +63,80 @@ nav {
     text-decoration:
   }
 
+
+
+
+ /* Navbar */
+ 
+ /* Search */
+
 .search, #googlelogo { 
     text-align: center;
 }
 
 
 
-  footer .right {
-    width: 100%;
-    color: white;
+ /* Search */
+
+ /* Footer */
+
+ footer a {
+    text-decoration: none;
+      }
+
+      footer {
+        position: fixed; 
+        padding: 10px 10px 0px 10px; 
+        bottom: 0; 
+        width: 100%; 
+        /* Height of the footer*/  
+        height: 40px; 
+        background-color: rgb(236, 234, 234);
+        border-top: 1px solid rgb(155, 155, 155);
+        color:#000;
+      }
+
+   .left {
+        text-align: left;
+        background-color: rgb(236, 234, 234);
+        color:#000;
+        margin-bottom: -20px;
+        font-size:20px;
+      }
+
+ .right {
+    background-color: rgb(236, 234, 234);
+    color:#000;
     text-align:right;
-    padding: 
-    margin: 
-    
+    margin-bottom: -20px;
+    margin-right: 20px;
+    font-size:20px;
   }
 
-  
-  footer .left {
-    position:
-    left: 0;
-    bottom: 0;
+  #location {
+    position:fixed;
+    bottom:50px;
     width: 100%;
+    height: 40px; 
+    left: 0px;
     color: white;
     text-align:left;
-    border-top: 1px solid black;
+    padding: 20px 10px 0px 20px; 
+    margin: 0 0 1px 0;
+    background-color: rgb(236, 234, 234);
+    color:rgb(216, 213, 213);
+    font-size:20px;
   }
 
-  footer .left #location {
-    position:
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align:left;
-    border-top: 1px solid black;
+  .right li {
+      margin:8px;
   }
 
+  .left li {
+    margin:8px;
+}
 
+
+
+
+ /* Footer */
