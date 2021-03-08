@@ -1,0 +1,13 @@
+/* css reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(60, 60, 133);
+    text-align: center;
+}
