@@ -5,9 +5,66 @@
     box-sizing: border-box;
 }
 
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Baskerville', serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(356deg, rgba(2,0,36,1) 0%, rgba(123,123,208,1) 35%, rgba(0,212,255,1) 100%);
+    font-weight: 500;
+}
+
+
 .intro{
-    margin-top: 10px;
+    margin: 40px 0 10px 0;
     font-size: 40px;
-    color: rgb(60, 60, 133);
+    color: rgb(45, 45, 61);
+    text-align: center;     
+}
+
+.intro-extra{
+    margin: -5px 0;
+    font-size: 20px;
+    color:rgb(45, 45, 61);
+    text-align: center;    
+}
+
+.container{
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.trio{
+    display: flex;
+    justify-content:space-between;
+}
+
+.card{
     text-align: center;
 }
+
+.card-image{
+    margin-bottom: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-image img{
+    border-radius: 50px;
+}
+
+.card-image:hover{
+    transform: translateY(-5px);
+}
+
+.card-text{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color:rgb(207, 222, 230)
+}
+
+
