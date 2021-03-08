@@ -3,21 +3,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RockPaperScissors</title>
+    <title>Rock Paper Scissors Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>It's Time to Play This Awesome Game!</h1>
+    <h1 class="intro">Play Rock-Paper-Scissors Game!</h1>
+    <section class="container">
+        <div class="score">
+            <div class="player-score">0</div>
+            <div class="vs-score">-</div>
+            <div class="computer-score">0</div>
+        </div>
+        <div class="message"></div>
+        <div class="trio">
+            <div class="card">
+                <div class="card-image" data-image="rock">
+                    <img src="images/rock.PNG" alt="rock" class="image">
+                </div>
+                <h3 class="card-text">Rock</h3>
+            </div>
+            <div class="card">
+                <div class="card-image" data-image="paper">
+                    <img src="images/paper.PNG" alt="paper" class="image">
+                </div>
+                <h3 class="card-text">Paper</h3>
+            </div>
+            <div class="card">
+                <div class="card-image" data-image="scissors">
+                    <img src="images/scissors.PNG" alt="scissors" class="image">
+                </div>
+                <h3 class="card-text">Scissors</h3>
+            </div>
+        </div>
+        <div class="dashboard">
+            <div class="dashboard-side">
+                <h2 class="side">You</h2>
+                <div class="your-choice">
+                    <!-- related choice -->
+                </div>
+            </div>
+            <div class="dashboard-side">
+                <h2 class="side">Computer</h2>
+                <div class="computer-choice">
+                    <!-- related choice -->
+                </div>
+            </div>
+        </div>
 
-    <script>
-        const gameItems = ["rock", "paper", "scissors"];
-        
-        function computerPlay("rock", "paper", "scissors") {
-            return Math.
-        }
 
-        function playSingleRound = 
+    </section>
 
-    </script>
+
+    <script src="app.js"></script>
 </body>
 </html>

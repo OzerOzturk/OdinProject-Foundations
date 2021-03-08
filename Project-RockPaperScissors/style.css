@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-h1{
+.intro{
     margin-top: 10px;
     font-size: 40px;
     color: rgb(60, 60, 133);
