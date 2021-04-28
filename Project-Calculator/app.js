@@ -3,7 +3,9 @@ let x
 let y
 
 
-function sum(x,y){
+
+
+function add(x,y){
     return x+y;
 }
 
@@ -21,5 +23,5 @@ function divide(x,y){
 
 
 function operate(x,y){
-    return x-y;
+   
 }
