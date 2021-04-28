@@ -44,7 +44,7 @@ button:hover {
 
 nav {
     display: grid;
-    grid-template-rows: 2fr;
+    grid-template-rows: 1fr;
     gap: 15px;
 }
 
@@ -116,3 +116,19 @@ footer a:hover{
     cursor: pointer;
     color:rgb(161, 236, 161);
 }
+
+.flashit{
+    color:rgb(255, 255, 255);
+      -webkit-animation: flash linear 1.1s infinite;
+      animation: flash linear 1.1s infinite;
+  }
+  @-webkit-keyframes flash {
+      0% { opacity: 1; } 
+      50% { opacity: .1; } 
+      100% { opacity: 1; }
+  }
+  @keyframes flash {
+      0% { opacity: 1; } 
+      50% { opacity: .1; } 
+      100% { opacity: 1; }
+  }
